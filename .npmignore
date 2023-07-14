@@ -1,0 +1,18 @@
+# directory
+.github/
+.vscode/
+.tmp/
+src/
+test/
+node_modules/
+
+# files
+.editorconfig
+.eslintignore
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+.gitignore
+.gitattributes
+.tsbuildinfo
+env.d.ts
