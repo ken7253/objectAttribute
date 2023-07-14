@@ -1,4 +1,5 @@
 {
   "extends": ["./tsconfig.json"],
+  "include": ["src/**/*.test.ts"],
   "files": ["vitest.config.ts", "setup-jsdom.ts"]
 }
