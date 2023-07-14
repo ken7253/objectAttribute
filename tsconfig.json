@@ -1,20 +1,12 @@
 {
-  "include": ["./src/**/*.ts"],
-  "exclude": ["./src/**/*.test.ts"],
+  "include": ["**/*.ts"],
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig to read more about this file */
     "incremental": true,
     "composite": true,
     "tsBuildInfoFile": "./.tsbuildinfo",
     "target": "ESNext",
-    // "lib": [],
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "rootDir": "./src",
-    "outDir": "./dist",
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
