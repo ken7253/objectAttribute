@@ -1,0 +1,4 @@
+{
+  "extends": ["./tsconfig.json"],
+  "files": ["vitest.config.ts", "setup-jsdom.ts"]
+}
