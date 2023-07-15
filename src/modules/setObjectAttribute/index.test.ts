@@ -22,7 +22,7 @@ describe('要素に対してbase64エンコードしたObjectをセットする�
     expect(attr).not.toBe(json);
   });
 
-  describe.skip.each([
+  describe.each([
     ['関数', includeFunction],
     ['Dateインスタンス', includeDate],
   ])('シリアライズできない値が含まれていた場合にエラーを発生させること', (type, data) => {
