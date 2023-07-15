@@ -1,6 +1,6 @@
 {
   "extends": ["./tsconfig.json"],
-  "exclude": ["./src/**/*.test.ts", "vitest.config.ts", "setup-jsdom.ts"],
+  "exclude": ["./src/**/*.test.ts", "./src/mocks/**/*", "vitest.config.ts", "setup-jsdom.ts"],
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
