@@ -1,7 +1,7 @@
 import { describe, test, expect } from 'vitest';
 import { setObjectAttribute } from './index';
 
-import { baseObjectData, includeDate, includeFunction } from '../.mocks/testingData.test';
+import { baseObjectData, includeDate, includeFunction } from '../../mocks/testingData.test';
 
 describe('要素に対してbase64エンコードしたObjectをセットする関数', () => {
   test('値がdatasetとして要素に設定されること', () => {
